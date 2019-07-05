@@ -1,0 +1,5 @@
+flowchart for MF CW RASS project
+2019-07-05
+    load_RASS.R
+    input:  ./data/Survdata.csv
+    output: ./data/DT_RASS.Rdata
