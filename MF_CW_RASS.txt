@@ -1,0 +1,5 @@
+notes on project development
+2019-07-05
+    set up folders and git in RStudio
+    copied over setup and load RASS scripts from
+    /home/jiml/HotWaterResearch/projects/HPWH/California HPWH/working groups/market analysis/CA_WH_analysis/
