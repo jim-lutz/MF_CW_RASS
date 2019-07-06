@@ -4,4 +4,5 @@ notes on project development
     copied over setup and load RASS scripts from
     /home/jiml/HotWaterResearch/projects/HPWH/California HPWH/working groups/market analysis/CA_WH_analysis/
     
-        
+    numi is often a fractional number
+    NRx-y is sometimes 97?        
