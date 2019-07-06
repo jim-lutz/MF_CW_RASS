@@ -1,7 +1,11 @@
 flowchart for MF CW RASS project
 2019-07-05
-    load_RASS.R
+load_RASS.R
     input:  ./data/Survdata.csv
     output: ./data/DT_RASS.Rdata
     
+load_MF_CW.R
+    # script to load MF CW data from ./data/DT_RASS.Rdata
+    # and look at data
+    input:  ./data/DT_RASS.Rdata
     

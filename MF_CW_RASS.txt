@@ -7,3 +7,8 @@ notes on project development
     numi is often a fractional number
     NRx-y is sometimes 97?        
     
+    before worrying about people examine loads and central laundry
+    
+    no answers on loads of laundry 
+    No, laundry facilities are located in a common area of the building. (Go to F1.)
+    I do not use laundry facilities in my building (Go to F1.)
