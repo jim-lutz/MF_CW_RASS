@@ -6,3 +6,4 @@ notes on project development
     
     numi is often a fractional number
     NRx-y is sometimes 97?        
+    

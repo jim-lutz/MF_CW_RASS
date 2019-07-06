@@ -27,8 +27,12 @@ grep("num",names(DT_RASS), value = TRUE)
 
 # look at summary of numi
 summary(DT_RASS$numi)
+  #  Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  # 1.000   2.000   2.000   2.647   3.000  42.000    1257 
+# Max = 42?, NA's = 1257?
 
 DT_RASS[,list(n=sum(numi, na.rm = TRUE)), by=numi]
+# lot of fractional values of numi?
 
 DT_RASS[numi==2.915720, list(NR0_5,
                              NR6_18,
@@ -36,6 +40,13 @@ DT_RASS[numi==2.915720, list(NR0_5,
                              NR35_54,
                              NR55_64,
                              NR65_99) ]
+# mostly 97 and 0?
+summary(DT_RASS$NR0_5)
+  #  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  # 0.000   0.000   0.000   1.399   0.000  97.000 
+
+# assume 97 = NA, sum wt Sample Weight by NR0_5
+DT_RASS[NR0_5!=97, list(n=sum(wt)),by=NR0_5][order(NR0_5)]
 
 
 # look at distribution of number of occupants
