@@ -50,8 +50,8 @@ DT_RASS[NR0_5!=97, list(n=sum(wt)),by=NR0_5][order(NR0_5)]
 
 
 # look at distribution of number of occupants
-ggplot(data = DT_RASS, aes(x=numi)) +
-  geom_histogram()
+ggplot(data = DT_RASS[NR0_5!=97], aes(x=NR0_5, y=wt) ) +
+  geom_col()
 
 
 
